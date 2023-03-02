@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fb_copy.github.io/static/css/main.2f9042f5.css",
-    "main.js": "/fb_copy.github.io/static/js/main.311eb82e.js",
-    "static/js/787.ca99b7da.chunk.js": "/fb_copy.github.io/static/js/787.ca99b7da.chunk.js",
-    "static/media/profile1.png": "/fb_copy.github.io/static/media/profile1.c132fd9d31d5f59cd1db.png",
-    "index.html": "/fb_copy.github.io/index.html",
-    "main.2f9042f5.css.map": "/fb_copy.github.io/static/css/main.2f9042f5.css.map",
-    "main.311eb82e.js.map": "/fb_copy.github.io/static/js/main.311eb82e.js.map",
-    "787.ca99b7da.chunk.js.map": "/fb_copy.github.io/static/js/787.ca99b7da.chunk.js.map"
+    "main.css": "/fb_copy/static/css/main.2f9042f5.css",
+    "main.js": "/fb_copy/static/js/main.37cd5c17.js",
+    "static/js/787.ca99b7da.chunk.js": "/fb_copy/static/js/787.ca99b7da.chunk.js",
+    "static/media/profile1.png": "/fb_copy/static/media/profile1.c132fd9d31d5f59cd1db.png",
+    "index.html": "/fb_copy/index.html",
+    "main.2f9042f5.css.map": "/fb_copy/static/css/main.2f9042f5.css.map",
+    "main.37cd5c17.js.map": "/fb_copy/static/js/main.37cd5c17.js.map",
+    "787.ca99b7da.chunk.js.map": "/fb_copy/static/js/787.ca99b7da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f9042f5.css",
-    "static/js/main.311eb82e.js"
+    "static/js/main.37cd5c17.js"
   ]
 }
