@@ -34,7 +34,7 @@ export const Login = () => {
             </div>
             <div className='flex justify-center items-center w-3/6 h-full'>
                 <div className="flex flex-col w-[70%] h-[75%] px-10">
-                    <img className='w-[198.81px] h-[70px] ml-[-20px]' src={facebook} alt="" onClick={register}/>
+                    <img className='w-[198.81px] h-[70px] ml-[-20px]' src={facebook} alt="" />
                     <h1 className='text-[28px] text-[#1C1E21] font-[helvetica]'>Recent Login</h1>
                     <p className='text=[15px] text-[#65768E] mt-[-5px] font-[helvetica]'>Click your picture or add an account</p>
                     <div className='flex flex-row flex-wrap gap-4 w-[100%] mt-6'>
