@@ -1,0 +1,100 @@
+$primary-color: #242526;
+$secondary-color: #3A3B3C;
+$icon-text-color: #B0B3B8;
+$font: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+
+.header {
+    background-color: $primary-color;
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo-search {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+        margin-right: 5px;
+    }
+    div {
+        width: 80%;
+        height: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 45px;
+        background-color: $secondary-color;
+        .icon {
+            color: $icon-text-color;
+        }
+        input {
+            width: 80%;
+            height: 90%;
+            border-radius: 45px;
+            border-style: none;
+            background-color: $secondary-color;
+            color: $icon-text-color;
+            font-family: $font;
+            font-weight: 400;
+            font-size: 15px;
+            outline: none;
+        }
+    }
+}
+
+.tabs {
+    width: 44%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    img {
+        width: 55px;
+        height: 55px;
+        object-fit: contain;   
+    }
+}
+
+.profile {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    img {
+        width: 55px;
+        height: 55px;
+        object-fit: contain;   
+    }
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 200px;
+    background-color: $primary-color;
+    padding: 10px;
+    display: none;
+    border-radius: 15px;
+    li {
+        font-family: $font;
+        color: $icon-text-color;
+    }
+  }
+  
+.dropdown-menu.open {
+    display: block;
+}
