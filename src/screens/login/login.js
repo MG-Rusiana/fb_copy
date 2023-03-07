@@ -1,5 +1,6 @@
 import facebook from './../../img/fbName.png';
 import profile1 from './../../img/profile1.png';
+import { Outlet, Link } from "react-router-dom";
 
 
 export const Login = () => {
@@ -60,7 +61,7 @@ export const Login = () => {
                     <form className='flex flex-col w-[100%] h-[275px] items-center px-5 pt-5 gap-5 border-b-[1px]'>
                         <input className='w-[100%] h-[52px] border-[1px] outline-0 focus:border-[#1877F2] rounded-md pl-4 shadow-inner' type='text' placeholder='Email or phone number' />
                         <input className='w-[100%] h-[52px] border-[1px] outline-0 focus:border-[#1877F2] rounded-md pl-4 shadow-inner' type='password' placeholder='Password' />
-                        <button className='w-[100%] h-[52px] bg-[#1877F2] text-center text-[#ffffff] rounded-md font-bold text-xl font-[helvetica]'>Log In</button>
+                        <button className='w-[100%] h-[52px] bg-[#1877F2] text-center text-[#ffffff] rounded-md font-bold text-xl font-[helvetica]'><Link to="/profile">Log In</Link></button>
                         <div className='w-[100%] text-center'>
                             <p className='font-medium text-sm text-[#1886F5] font-[helvetica]'>Forgot password?</p>
                         </div>
